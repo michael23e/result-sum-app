@@ -62,12 +62,15 @@ text-align: center;
     color: var(--Dark-gray-blue);
     width:100%;
 }
+.sum{
+    padding: 10px 0;
+}
 .sum-div{
     display: flex;
     align-items: center;
     width: 100%;
     justify-content:space-between;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 .sum-div div{
     display: flex;
@@ -115,6 +118,9 @@ button{
     color: var(--Light-lavender);
     padding: 15px 0;
 }
+.great{
+    padding: 10px 0;
+}
 
 @media only screen and (max-width:450px) {
     .container{
@@ -131,6 +137,7 @@ button{
     color: var(--Dark-gray-blue);
     font-size: 14px;
     text-align: center;
+    padding: 20px 0;
 }
 .attribution a{
     text-decoration: none;
